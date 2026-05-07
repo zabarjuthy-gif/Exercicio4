@@ -1,0 +1,8 @@
+publish: true
+type: competition
+world:
+  file: worlds/pick_and_place.wbt
+  max-duration: 80
+  metric: time-speed
+  higher-is-better: true
+dockerCompose: competition:webots-project/controllers/participant/
